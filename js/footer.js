@@ -7,28 +7,29 @@ const creatFooter = () => {
     <div class="footer-ul-container">
         <ul class="category">
             <li class="category-title">Drums</li>
-            <li><a href="#" class="footer-link">Acoustic Drums</a></li>
-            <li><a href="#" class="footer-link">Electronic Drums</a></li>
-            <li><a href="#" class="footer-link">Percussion</a></li>
-            <li><a href="#" class="footer-link">Cymbals</a></li>
-            <li><a href="#" class="footer-link">sticks & Accessories</a></li>
+            <li><a href="drum.html" class="footer-link">Acoustic Drums</a></li>
+            <li><a href="drum1.html" class="footer-link">Snare Drums</a></li>
+            <li><a href="drum2.html" class="footer-link">Electronic Drums kits</a></li>
+            <li><a href="drum3.html" class="footer-link">Percussion</a></li>
+            <li><a href="drum4.html" class="footer-link">Cymbals</a></li>
+            <li><a href="drum5.html" class="footer-link">sticks & Accessories</a></li>
         </ul>
 
         <ul class="category">
             <li class="category-title">Guitars</li>
-            <li><a href="#" class="footer-link">Acoustic Guitars</a></li>
-            <li><a href="#" class="footer-link">Electric Guitars</a></li>
-            <li><a href="#" class="footer-link">Bass Guitars</a></li>
-            <li><a href="#" class="footer-link">Amplifier</a></li>
-            <li><a href="#" class="footer-link">Ukulele</a></li>
-            <li><a href="#" class="footer-link">Guitar Accessories</a></li>
+            <li><a href="guitar.html" class="footer-link">Acoustic Guitars</a></li>
+            <li><a href="guitar1.html" class="footer-link">Electric Guitars</a></li>
+            <li><a href="guitar2.html" class="footer-link">Bass Guitars</a></li>
+            <li><a href="guitar3.html" class="footer-link">Amplifier</a></li>
+            <li><a href="guitar4.html" class="footer-link">Ukulele</a></li>
+            <li><a href="guitar5.html" class="footer-link">Guitar Accessories</a></li>
         </ul>
         <ul class="category">
             <li class="category-title">Piano</li>
-            <li><a href="#" class="footer-link">Portable Keyboards</a></li>
-            <li><a href="#" class="footer-link">Digital Keyboards</a></li>
-            <li><a href="#" class="footer-link">Multipurpose Amplifiers</a></li>
-            <li><a href="#" class="footer-link">Stands & Accessories</a></li>
+            <li><a href="keyboard.html" class="footer-link">Portable Keyboards</a></li>
+            <li><a href="keyboard1.html" class="footer-link">Digital Keyboards</a></li>
+            <li><a href="keyboard2.html" class="footer-link">Multipurpose Amplifiers</a></li>
+            <li><a href="keyboard3.html" class="footer-link">Stands & Accessories</a></li>
         </ul>
         
     </div>
