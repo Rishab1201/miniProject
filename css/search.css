@@ -17,7 +17,14 @@
 
 .product-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     height: auto;
     grid-row-gap: 40px;
+}
+
+.shop{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    padding: 30px;
 }

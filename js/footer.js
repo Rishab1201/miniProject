@@ -25,7 +25,7 @@ const creatFooter = () => {
             <li><a href="guitar5.html" class="footer-link">Guitar Accessories</a></li>
         </ul>
         <ul class="category">
-            <li class="category-title">Piano</li>
+            <li class="category-title">Keyboards</li>
             <li><a href="keyboard.html" class="footer-link">Portable Keyboards</a></li>
             <li><a href="keyboard1.html" class="footer-link">Digital Keyboards</a></li>
             <li><a href="keyboard2.html" class="footer-link">Multipurpose Amplifiers</a></li>

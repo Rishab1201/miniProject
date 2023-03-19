@@ -1,13 +1,13 @@
 @import 'nav.css';
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.navbar {
     position: sticky;
     top: 0;
     left: 0;
@@ -16,30 +16,30 @@
     z-index: 9;
 }
 
-.nav{
+.nav {
     padding: 10px 10vw;
     display: flex;
     justify-content: space-between;
 }
 
-.brand-logo{
+.brand-logo {
     height: 60px;
     padding-top: 20px;
     color: white;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     align-items: center;
 }
 
-.search{
+.search {
     width: 500px;
     display: flex;
     margin-right: 253px;
 }
 
-.search-box{
+.search-box {
     width: 80%;
     height: 40px;
     padding: 10px;
@@ -50,7 +50,7 @@
     outline: none;
 }
 
-.search-btn{
+.search-btn {
     width: 20%;
     height: 40px;
     padding: 10px 20px;
@@ -63,40 +63,83 @@
     font-size: 15px;
 }
 
-.search-box::placeholder{
+.search-box::placeholder {
     color: #9a9a9a;
 }
 
-.nav-items a{
+.nav-items a {
     margin-left: 20px;
 }
 
-.nav-items a i{
+.nav-items a i {
     width: 30px;
 }
 
-.links-container{
-    width: 100%;
-    display: flex;
-    padding: 10px 10vw;
-    justify-content: center;
-    list-style: none;
+.dropdown {
+    background-color: #383838;
+    color: #fff;
     border-top: 1px solid #d1d1d1;
 }
 
-.link{
-    text-transform: capitalize;
-    padding: 0 10px;
-    margin: 0 5px;
-    text-decoration: none;
-    color: #fff;
-    opacity: 0.5;
-    transition: .5s;
+.dropdown ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding-left: 25%;
 }
 
-.link:hover{
-    opacity: 1;
+.dropdown ul li {
+    position: relative;
+    white-space: nowrap;
+    padding-left: 25px;
 }
+
+.dropdown ul li:hover {
+    background-color: #383838;
+}
+
+.dropdown ul ul {
+    display: none;
+    position: absolute;
+    background-color: #383838;
+}
+
+.dropdown>ul {
+    display: flex;
+}
+
+.dropdown>ul>li ul {
+    top: 100%;
+    left: 0;
+}
+
+.dropdown>ul>li ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.dropdown>ul>li:hover>ul,
+.dropdown>ul>li li:hover>ul {
+    display: inherit;
+}
+
+.dropdown a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+.dropdown a:not(:only-child) {
+    padding-right: 2em;
+}
+
+.dropdown a:not(:only-child)::after {
+    content: "+";
+    position: absolute;
+    right: 1em;
+}
+
+
 
 .nav a img {
     height: 30px;
